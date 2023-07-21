@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>The PokéSite</title>
+        <link rel="stylesheet" href="trivia.css">
+        <link rel="stylesheet" href="card.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">The PokéSite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="darktype.html">Dark Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="electrictype.html">Electric Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fightingtype.html">Fighting Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="firetype.html">Fire Type</a>
+                </li>
+                <li class= "nav-item">
+                  <a class="nav-link" href="normaltype.html">Normal Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trivia.html">Trivia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="https://www.pokemon.com/us" style="color:crimson;">Visit the Official Pokémon Website</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div class="jumbotron">
+            <h1 class="display-4">The PokéSite</h1>
+            <p class="lead">Learn all about Pokémon.</p>
+            <hr class="my-4">
+            <p>Discover more about each type of Pokémon, from Electric Type to Dark Type.</p>
+            <p class="lead">
+            </p>
+            <hr class="my-4">
+            <p id="demo" style="color:rgb(41, 41, 41)">Contact Information</p>
+
+            <button class="button" type="button" onClick="document.getElementById('demo').innerHTML = 'noahlockey@compasscharter.org' ">
+            Reveal Contact Info
+            </button>
+          </div>
+          <div class="jumbotron">
+            <h1 class="display-4">Featured Pokémon</h1>
+            <hr class="my-4">
+            <p class="lead">Discover a changing set of featured Pokémon.</p>
+          </div>
+          <div>
+            <table>
+              <tr>
+                <td>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/Blacephalon.png" alt="Blacephalon">
+                    <div class="card-body">
+                      <h5 class="card-title">Blacephalon<p>#0806</p></h5>
+                      <p class="card-text">Pokédex Entry: It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.</p>
+                      <p class="card-text">Typing: Fire/Ghost</p>
+                      <a href="https://www.pokemon.com/us/pokedex/blacephalon" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/Meltan.png" alt="Meltan">
+                    <div class="card-body">
+                      <h5 class="card-title">Meltan<p>#0808</p></h5>
+                      <p class="card-text">Pokédex Entry: It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.</p>
+                      <p class="card-text">Typing: Steel</p>
+                      <a href="https://www.pokemon.com/us/pokedex/meltan" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/Zweilous.png" alt="Zweilous">
+                    <div class="card-body">
+                      <h5 class="card-title">Zweilous<p>#0634</p></h5>
+                      <p class="card-text">Pokédex Entry: The two heads do not get along at all. If you don’t give each head the same amount of attention, they’ll begin fighting out of jealousy.</p>
+                      <p class="card-text">Typing: Dark/Dragon</p>
+                      <a href="https://www.pokemon.com/us/pokedex/zweilous" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/Noibat.png" alt="Noibat">
+                    <div class="card-body">
+                      <h5 class="card-title">Noibat<p>#0714</p></h5>
+                      <p class="card-text">Pokédex Entry: This Pokémon emits ultrasonic waves from its large ears to search for fruit to eat. It mistakes Applin for its food.</p>
+                      <p class="card-text">Typing: Flying/Dragon</p>
+                      <a href="https://www.pokemon.com/us/pokedex/noibat" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Images/Floatzel.png" alt="Floatzel">
+                    <div class="card-body">
+                      <h5 class="card-title">Floatzel<p>#0419</p></h5>
+                      <p class="card-text">Pokédex Entry: With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.</p>
+                      <p class="card-text">Typing: Water</p>
+                      <a href="https://www.pokemon.com/us/pokedex/floatzel" class="btn btn-primary">Learn More</a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            </div>
+    </body>
+</html>

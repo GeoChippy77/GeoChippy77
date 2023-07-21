@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <title>Trivia</title>
+        <link rel="stylesheet" href="trivia.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">The PokéSite</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="darktype.html">Dark Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="electrictype.html">Electric Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="fightingtype.html">Fighting Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="firetype.html">Fire Type</a>
+                </li>
+                <li class= "nav-item">
+                  <a class="nav-link" href="normaltype.html">Normal Type</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="trivia.html">Trivia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="https://www.pokemon.com/us" style="color:crimson;">Visit the Official Pokémon Website</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+          <div>
+            <div class="jumbotron">
+                <h1 class="display-4">Trivia</h1>
+                <p class="lead">Test your knowledge of Pokémon.</p>
+                <hr class="my-4">
+                <p>Test your knowledge of Pokémon with an ever-expanding set of questions.</p>
+                <p class="lead">
+                </p>
+              </div>
+          </div>
+          <div class="triviaq">
+            <button class="button" type="button" onclick="document.getElementById('image').src='Trivia Images/ThievulQ.png'">
+                View Question
+            </button>
+        
+            <img id="image" src="Trivia Images/ThievulQ.png" alt="What Pokémon type is Thievul?" style="width: 200px">
+        
+            <button class="button" type="button" onclick="document.getElementById('image').src='Trivia Images/ThievulA.png'">
+                Get Answer
+            </button>
+          </div>
+          <brk />
+          <div class="triviaq">
+            <button class="button" type="button" onclick="document.getElementById('image2').src='Trivia Images/KlinklangQ'">
+              View Question
+            </button>
+    
+          <img id="image2" src="Trivia Images/KlinklangQ.png" alt="What Pokémon type is Klinklang?" style="width: 200px">
+    
+          <button class="button" type="button" onclick="document.getElementById('image2').src='Trivia Images/KlinklangA.png'">
+             Get Answer
+          </button>
+        </div>
+    </body>
+</html>
